@@ -7,6 +7,7 @@
   - 给对应Button添加左图片
   - 添加自定义背景视图等
   - 修改后效果如下图：
+  ![head](https://github.com/zfx5130/UIAlertController/blob/master/test.gif)
   
 ###### 修改字体颜色
 
@@ -99,7 +100,7 @@ ps:对于my_appearanceWhenContainedIn这个方法，我查找了相关资料，�
 
 
 ps: 还有其他相关的可以通过KVO去修改设置的相关，大家可以根据需求，进行修改。如果想想参考源码，可点击这里查看
- [Demo示例]()
+ [Demo示例](https://github.com/zfx5130/UIAlertController/blob/master/TestViewController.swift)
 	
   
 #### 参考资料
