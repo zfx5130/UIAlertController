@@ -1,7 +1,7 @@
 # UIAlertController
 
 
-  系统的UIAlertController & UIAlertAction, 因为要自定义UIAlertController样式，所以花费了一点时间研究AlertController,查看对应runtime属性，通过KVO形式修改了系统原生控件的相应属性，但由于暴露的属性太少，导致最后没有达到理想的效果,例如：alertAction的高度，圆角等不能修改（也许我没有找到合理的方式），最后决定放弃修改原生控件，自己封装自定义一个。不过有的小伙伴只需要对字体和颜色，或者添加简单图片的，完全可以在原有基础上修改，下面会列出具体的方法。
+  系统的UIAlertController & UIAlertAction, 因为要自定义UIAlertController样式，所以花费了一点时间研究AlertController,查看对应runtime属性，通过KVC形式修改了系统原生控件的相应属性，但由于暴露的属性太少，导致最后没有达到理想的效果,例如：alertAction的高度，圆角等不能修改（也许我没有找到合理的方式），最后决定放弃修改原生控件，自己封装自定义一个。不过有的小伙伴只需要对字体和颜色，或者添加简单图片的，完全可以在原有基础上修改，下面会列出具体的方法。
   
   - 控件字体颜色，字体大小
   - 给对应Button添加左图片
@@ -99,7 +99,7 @@ ps:对于my_appearanceWhenContainedIn这个方法，我查找了相关资料，�
         
 
 
-ps: 还有其他相关的可以通过KVO去修改设置的相关，大家可以根据需求，进行修改。如果想想参考源码，可点击这里查看
+ps: 还有其他相关的可以通过KVC去修改设置的相关，大家可以根据需求，进行修改。如果想想参考源码，可点击这里查看
  [Demo示例](https://github.com/zfx5130/UIAlertController/blob/master/TestViewController.swift)
 	
   
